@@ -25,8 +25,7 @@ public class JsonToObject {
 			// we require a default-constructor in the Staff class , for this conversion
 			Staff dummyStaff = mapper.readValue(new File(ObjectToJson.DATA_REPOSITORY+"/staff.json"),Staff.class);
 			System.out.println(dummyStaff);
-			
-			
+					
 			//JsonObject-String to Object conversion
 			// this approach uses , getter-setter based initialisation
 			String jsonInString =  "{\"name\":\"mkyong\",\"salary\":7500,\"skills\":[\"java\",\"python\"]}";
