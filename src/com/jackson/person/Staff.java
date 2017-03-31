@@ -68,6 +68,7 @@ public class Staff {
 	@Override
 	public String toString() {
 	StringBuilder staff_toString = new StringBuilder();
+	staff_toString.append("::: Employee :::");
 	staff_toString.append("name : "+getName()+" age : "+getAge()+" salary : "+getSalary()+" skills : "+getSkills());
 		return staff_toString.toString();
 	}
